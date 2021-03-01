@@ -271,7 +271,7 @@ const RESIZE_TOP_HOVER_CLASS: string = 'resize-top-hover';
 const RESIZE_BOTTOM_HOVER_CLASS: string = 'resize-bottom-hover';
 const RESIZE_GHOST_ELEMENT_CLASS: string = 'resize-ghost-element';
 
-const MAST_HAVE_ATTRIBUT: string = 'ng-reflect-validate-resize';
+const VALIDATE_RESIZE_ATTRIBUTE: string = 'ng-reflect-validate-resize';
 
 export const MOUSE_MOVE_THROTTLE_MS: number = 50;
 
@@ -860,9 +860,9 @@ class PointerEventListeners {
   private wasTargetElementСlicked(event: any) {
     if (event && event.target) {
       return (
-        !!event.target.attributes[MAST_HAVE_ATTRIBUT] ||
+        !!event.target.attributes[VALIDATE_RESIZE_ATTRIBUTE] ||
         (event.target.parentElement &&
-          !!event.target.parentElement.attributes[MAST_HAVE_ATTRIBUT])
+          !!event.target.parentElement.attributes[VALIDATE_RESIZE_ATTRIBUTE])
       );
     }
     return false;
