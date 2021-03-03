@@ -64,6 +64,7 @@ import { ResizeEvent } from '../src';
         [enableGhostResize]="true"
         [resizeSnapGrid]="{ left: 50, right: 50 }"
         (resizeEnd)="onResizeEnd($event)"
+        [attr.data-resizable]="true"
       >
         <div
           class="resize-handle-top"
