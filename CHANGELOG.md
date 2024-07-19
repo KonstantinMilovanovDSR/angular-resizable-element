@@ -1,6 +1,121 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [7.0.2](https://github.com/mattlewis92/angular-resizable-element/compare/v7.0.1...v7.0.2) (2022-12-13)
+
+
+### Bug Fixes
+
+* check onMouseDown event is cancelable before calling event.preventDefault() ([#133](https://github.com/mattlewis92/angular-resizable-element/issues/133)) ([4438bab](https://github.com/mattlewis92/angular-resizable-element/commit/4438babaf8fcdf5b036d4c135cd47dee80373fce))
+
+### [7.0.1](https://github.com/mattlewis92/angular-resizable-element/compare/v7.0.0...v7.0.1) (2022-12-12)
+
+
+### Bug Fixes
+
+* check if event is cancelable before calling preventDefault ([#132](https://github.com/mattlewis92/angular-resizable-element/issues/132)) ([10bfc51](https://github.com/mattlewis92/angular-resizable-element/commit/10bfc512a03219119d4211ad7cfe6d4da4f9f692))
+
+## [7.0.0](https://github.com/mattlewis92/angular-resizable-element/compare/v6.0.2...v7.0.0) (2022-12-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* angular 15 or higher is now required to use this package
+
+### build
+
+* upgrade to angular 15 ([3c2c930](https://github.com/mattlewis92/angular-resizable-element/commit/3c2c930bae9757fb1ce55bc25059c1a9ed50ab98))
+
+### [6.0.2](https://github.com/mattlewis92/angular-resizable-element/compare/v6.0.1...v6.0.2) (2022-12-11)
+
+
+### Bug Fixes
+
+* **resizable:** correct type for resizeCursors input to make all properties optional ([c973e74](https://github.com/mattlewis92/angular-resizable-element/commit/c973e74e0a489674513f18577ba6d4ccb1fe0a41))
+
+### [6.0.1](https://github.com/mattlewis92/angular-resizable-element/compare/v6.0.0...v6.0.1) (2022-12-11)
+
+
+### Bug Fixes
+
+* expose ResizeCursors interface as part of the public api ([767bd1b](https://github.com/mattlewis92/angular-resizable-element/commit/767bd1bb00c85651fcd80449e191fa75cd056621))
+
+## [6.0.0](https://github.com/mattlewis92/angular-resizable-element/compare/v5.0.0...v6.0.0) (2022-08-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* angular 14 or higher is now required to use this package
+
+### build
+
+* upgrade to angular 14 ([180ab35](https://github.com/mattlewis92/angular-resizable-element/commit/180ab353b475962a2f932bf7ff67049cd5262e08))
+
+## [5.0.0](https://github.com/mattlewis92/angular-resizable-element/compare/v4.0.0...v5.0.0) (2021-12-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* angular 12 or higher is now required to use this package
+
+### Features
+
+* publish package in ivy partial compilation mode ([d9ad08c](https://github.com/mattlewis92/angular-resizable-element/commit/d9ad08ce55ca92d2235584a14d950a160e43d48a))
+
+## [4.0.0](https://github.com/mattlewis92/angular-resizable-element/compare/v3.4.0...v4.0.0) (2021-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **mwlResizable:** the `resizeEdges` and `resizeCursorPrecision` inputs have been removed from the `mwlResizable` directive.
+
+To migrate, please use the `mwlResizeHandle` directive instead (see the readme for a full example)
+* angular 10 or higher is now required to use this package
+
+### Features
+
+* **mwlResizable:** remove deprecated `resizeEdges` and `resizeCursorPrecision` inputs ([58c954e](https://github.com/mattlewis92/angular-resizable-element/commit/58c954ed6013ea169e637592a571e17913fd56ed))
+
+
+### Bug Fixes
+
+* copy canvas when using `enableGhostResize` ([#129](https://github.com/mattlewis92/angular-resizable-element/issues/129)) ([d65c257](https://github.com/mattlewis92/angular-resizable-element/commit/d65c2572681cb05cbfc55a1fbf4b1bca2a0e93a4))
+
+
+### build
+
+* migrate to the angular cli ([21eca11](https://github.com/mattlewis92/angular-resizable-element/commit/21eca1101ad063c223599cf016124f50110353a1)), closes [#125](https://github.com/mattlewis92/angular-resizable-element/issues/125)
+
+<a name="3.4.0"></a>
+# [3.4.0](https://github.com/mattlewis92/angular-resizable-element/compare/v3.3.5...v3.4.0) (2021-06-02)
+
+
+### Features
+
+* **mwlResizeHandle:** add `resizableContainer` input ([862249f](https://github.com/mattlewis92/angular-resizable-element/commit/862249f))
+
+
+
+<a name="3.3.5"></a>
+## [3.3.5](https://github.com/mattlewis92/angular-resizable-element/compare/v3.3.4...v3.3.5) (2021-02-02)
+
+
+### Performance Improvements
+
+* listen to touch events only on touch devices ([#126](https://github.com/mattlewis92/angular-resizable-element/issues/126)) ([c85a28d](https://github.com/mattlewis92/angular-resizable-element/commit/c85a28d))
+
+
+
+<a name="3.3.4"></a>
+## [3.3.4](https://github.com/mattlewis92/angular-resizable-element/compare/v3.3.3...v3.3.4) (2020-11-21)
+
+
+### Performance Improvements
+
+* only trigger change detection if there are output subscribers ([930de54](https://github.com/mattlewis92/angular-resizable-element/commit/930de54))
+
+
 
 <a name="3.3.3"></a>
 ## [3.3.3](https://github.com/mattlewis92/angular-resizable-element/compare/v3.3.2...v3.3.3) (2020-07-24)
