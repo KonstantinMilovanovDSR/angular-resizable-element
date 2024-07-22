@@ -1,6 +1,5 @@
-/* tslint:disable:max-inline-declarations */
 import { Component } from '@angular/core';
-import { ResizeEvent } from '../src';
+import { ResizeEvent } from 'angular-resizable-element';
 
 @Component({
   selector: 'mwl-demo',
@@ -18,6 +17,7 @@ import { ResizeEvent } from '../src';
         border: solid 1px #121621;
         color: #121621;
         margin: auto;
+        box-sizing: border-box; // required for the enableGhostResize option to work
       }
 
       .resize-handle-top,
@@ -51,7 +51,7 @@ import { ResizeEvent } from '../src';
       .resize-handle-right {
         right: 0;
       }
-    `
+    `,
   ],
   template: `
     <div class="text-center">
@@ -88,7 +88,7 @@ import { ResizeEvent } from '../src';
         ></div>
       </div>
     </div>
-  `
+  `,
 })
 export class DemoComponent {
   public style: object = {};
@@ -112,7 +112,7 @@ export class DemoComponent {
       left: `${event.rectangle.left}px`,
       top: `${event.rectangle.top}px`,
       width: `${event.rectangle.width}px`,
-      height: `${event.rectangle.height}px`
+      height: `${event.rectangle.height}px`,
     };
   }
 }
