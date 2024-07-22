@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattlewis92/angular-resizable-element.git"
+    "url": "git+https://github.com/KonstantinMilovanovDSR/angular-resizable-element.git"
   },
   "keywords": [
     "angular",
@@ -33,9 +33,9 @@
   "author": "Matt Lewis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattlewis92/angular-resizable-element/issues"
+    "url": "https://github.com/KonstantinMilovanovDSR/angular-resizable-element/issues"
   },
-  "homepage": "https://github.com/mattlewis92/angular-resizable-element#readme",
+  "homepage": "https://github.com/KonstantinMilovanovDSR/angular-resizable-element/#readme",
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.0.3",
     "@angular-eslint/builder": "15.1.0",
